@@ -29,12 +29,6 @@ LANGFUSE_BASE_URL = st.secrets["LANGFUSE_BASE_URL"]
 
 lf_handler = CallbackHandler()
 
-# Langfuse untuk event manual (SDK murni)
-lf_client = Langfuse(
-    public_key=LANGFUSE_PUBLIC_KEY,
-    secret_key=LANGFUSE_SECRET_KEY,
-    host=LANGFUSE_BASE_URL
-    )
 # completion = openai.chat.completions.create(
 #   name="test-chat",
 #   model="gpt-4o-mini",
