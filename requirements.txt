@@ -1,5 +1,5 @@
 [project]
-name = "llm-imdb"
+name = "capstone3"
 version = "0.1.0"
 description = "App using LangChain and LLMs to retrieve information from vectorDB of IMDB dataset"
 authors = ["THabeahan"]
@@ -36,4 +36,5 @@ dependencies =[
     "streamlit>=1.45.1",
     "torch>=2.9.0"
 ]
+
 
