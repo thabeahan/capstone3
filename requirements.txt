@@ -1,27 +1,14 @@
-[project]
-name = "capstone3"
-version = "0.1.0"
-description = "App using LangChain and LLMs to retrieve information from vectorDB of IMDB dataset"
-requires-python = ">=3.11"
-dependencies =[
-    "duckduckgo_search>=8.1.1",
-    "langchain>=1.0.2",
-    "langchain-classic>=1.0.0",
-    "langchain-community>=0.4",
-    "langchain-core>=1.0.1",
-    "langchain-openai>=1.0.1",
-    "langchain-qdrant>=1.0.0",
-    "langfuse>=3.8.1",
-    "langgraph>=1.0.0",
-    "langsmith>=0.4.37",
-    "pillow>=11.1.0",
-    "plotly>=5.24.1",
-    "streamlit>=1.45.1",
-    "torch>=2.9.0"
-]
-
-
-
-
-
-
+duckduckgo_search>=8.1.1
+langchain>=1.0.2
+langchain-classic>=1.0.0
+langchain-community>=0.4
+langchain-core>=1.0.1
+langchain-openai>=1.0.1
+langchain-qdrant>=1.0.0
+langfuse>=3.8.1
+langgraph>=1.0.0
+langsmith>=0.4.37
+pillow>=11.1.0
+plotly>=5.24.1
+streamlit>=1.45.1
+torch>=2.9.0
