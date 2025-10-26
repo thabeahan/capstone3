@@ -220,9 +220,8 @@ def set_gif_background(gif_path):
         unsafe_allow_html=True
     )
     
-st.image("nodes.gif")
-# gif_path = os.path.join("capstone3", "nodes.gif")
-# set_gif_background(gif_path)
+gif_path = os.path.join("nodes.gif")
+set_gif_background(gif_path)
 
 st.title("Chatbot 🎥 Movies Dictionary")
 st.write("🤖 Welcome! Let’s find any information about movies together.")
