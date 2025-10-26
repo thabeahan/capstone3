@@ -1,0 +1,39 @@
+[project]
+name = "llm-imdb"
+version = "0.1.0"
+description = "App using LangChain and LLMs to retrieve information from vectorDB of IMDB dataset"
+authors = ["THabeahan"]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies =[
+    "duckduckgo_search>=8.1.1",
+    "gitdb>=4.0.7",
+    "GitPython>=3.1.43",
+    "huggingface-hub>=0.35.3",
+    "langchain>=1.0.2",
+    "langchain-classic>=1.0.0",
+    "langchain-community>=0.4",
+    "langchain-core>=1.0.1",
+    "langchain-openai>=1.0.1",
+    "langchain-qdrant>=1.0.0",
+    "langchain-text-splitters>=1.0.0",
+    "langfuse>=3.8.1",
+    "langgraph>=1.0.0",
+    "langgraph-checkpoint>=2.1.2",
+    "langgraph-prebuilt>=1.0.0",
+    "langgraph-sdk>=0.2.9",
+    "langsmith>=0.4.37",
+    "Markdown>=3.8",
+    "markdown-it-py>=2.2.0",
+    "matplotlib>=3.10.0",
+    "matplotlib-inline>=0.1.6",
+    "numpy>=2.1.3",
+    "openai>=2.5.0",
+    "pillow>=11.1.0",
+    "plotly>=5.24.1",
+    "python-dotenv>=1.1.0",
+    "requests>=2.32.5",
+    "seaborn>=0.13.2",
+    "streamlit>=1.45.1",
+    "torch>=2.9.0"
+]
