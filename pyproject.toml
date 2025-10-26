@@ -1,0 +1,23 @@
+[chatbot.movie]
+name = "llm-imdb"
+version = "0.1.0"
+description = "App using LangChain and LLMs to retrieve information from vectorDB of IMDB dataset"
+authors = ["THabeahan"]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies =[
+    "base64",
+    "os"'
+    "uuid",
+    "datetime",
+    "OpenAI",
+    "langfuse",
+    "langchain",
+    "streamlit",
+    "duckduckgo_search",
+    "langchain_core",
+    "langchain_qdrant",
+    "langchain_openai",
+    "langfuse.langchain",
+    "requests"
+]
