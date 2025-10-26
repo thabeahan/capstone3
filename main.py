@@ -220,7 +220,7 @@ def set_gif_background(gif_path):
         unsafe_allow_html=True
     )
 
-gif_path = r"C:\Users\timbu\Downloads\Purwadhika\04. Capstone Project\Caps3\Capstone3_Final\nodes.gif"
+gif_path = os.path.join("assets", "nodes.gif")
 set_gif_background(gif_path)
 
 st.title("Chatbot 🎥 Movies Dictionary")
